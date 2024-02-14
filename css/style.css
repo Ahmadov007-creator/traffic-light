@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    background-image: url(/img/car-223038.jpg!d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 93.8vh;
+}
+.traffic-light {
+    width: 100px;
+    height: 320px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 10px auto;
+  }
+
+  .car {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 30px;
+    background-color: blue;
+    transition: left 2s linear;
+  }
